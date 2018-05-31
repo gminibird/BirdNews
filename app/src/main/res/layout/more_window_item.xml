@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/category_window_width"
+    android:layout_height="@dimen/category_window_item_height"
+    android:orientation="horizontal"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/category_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="@dimen/category_window_item_margin_left"
+        android:textSize="@dimen/category_window_text_size"
+        android:text="足球最新"/>
+
+</LinearLayout>
